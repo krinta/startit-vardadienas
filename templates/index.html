@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vārda dienas</title>
+</head>
+<body>
+  <h1>Vārdadienas</h1>
+  <h2>Šodien vārdadienas svin:</h2>
+  <div id="sodien"></div>
+  <hr/>
+  <input type="text" id="jautajums">
+  <button onclick="meklet_vardu()">Meklēt vārdu</button>
+  <div id="rezultats"></div>
+  <hr/>
+  <h2>Līdzīgu vārdu meklēšana</h2>
+  <input type="text" id="burti">
+  <button onclick="meklet_pec_teksta()">Meklēt līdzīgus vārdus</button>
+  <div id="lidzigi_vardi"></div>
+  
+  <script src="/static/skripts.js"></script>
+  <script>sodien();</script>
+
+<a href="/meklesana">Meklēt vārda dienu pēc vairākiem parametriem</a>
+</body>
+</html>
